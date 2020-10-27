@@ -1,2 +1,1 @@
-# customize-lead-trail-dates-flutter-event-calendar
-How to customize the leading and trailing dates of the month cells in the Flutter event calendar (SfCalendar)?
+[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/11988/how-to-customize-the-leading-and-trailing-dates-of-the-month-cells-in-the-flutter-event)
