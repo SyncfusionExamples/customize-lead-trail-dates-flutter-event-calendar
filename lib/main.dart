@@ -4,12 +4,7 @@ import 'package:syncfusion_flutter_calendar/calendar.dart';
 
 void main() => runApp(LeadingTrailingDatesCustomization());
 
-class LeadingTrailingDatesCustomization extends StatefulWidget {
-  @override
-  LeadingTrailingDatesCustomizationState createState() => LeadingTrailingDatesCustomizationState();
-}
-
-class LeadingTrailingDatesCustomizationState extends State<LeadingTrailingDatesCustomization> {
+class LeadingTrailingDatesCustomization extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -85,26 +80,24 @@ class LeadingTrailingDatesCustomizationState extends State<LeadingTrailingDatesC
   }
 
   Widget monthCellBuilder(BuildContext context, MonthCellDetails details) {
-    var mid=details.visibleDates.length~/2.toInt();
-    var midDate=details.visibleDates[0].add(Duration(days: mid));
+    var mid = details.visibleDates.length ~/ 2.toInt();
+    var midDate = details.visibleDates[0].add(Duration(days: mid));
 
-    if(details.date.month != midDate.month){
+    if (details.date.month != midDate.month) {
       return Container(
         color: Colors.pinkAccent,
         child: Text(
           details.date.day.toString(),
         ),
       );
+    } else {
+      return Container(
+        color: Colors.green,
+        child: Text(
+          details.date.day.toString(),
+        ),
+      );
     }
-    else
-      {
-        return Container(
-          color: Colors.green,
-          child: Text(
-            details.date.day.toString(),
-          ),
-        );
-      }
   }
 }
 
