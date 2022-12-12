@@ -1,4 +1,4 @@
-package com.example.flutter_leadtraildates_custom
+package com.example.customize_leadtraildates
 
 import io.flutter.embedding.android.FlutterActivity
 
