@@ -6,6 +6,8 @@ You can customise the leading and trailing dates in the Flutter Event Calendar b
 
 Using MonthCellDetails from the moncellbuilder, you can determine whether the date is leading or trailing. Month dates in the Flutter calendar are customised based on those details.
 
+![LeadingandTrailing](https://user-images.githubusercontent.com/46158936/209128983-4f2c6297-c436-4951-ad4c-58bb65f5836b.png)
+
 For more details, refer to our [KB](https://www.syncfusion.com/kb/11988/how-to-customize-the-leading-and-trailing-dates-of-the-month-cells-in-the-flutter-calendar) documentation.
 
 ## Requirements to run the demo
